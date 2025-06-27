@@ -4,6 +4,8 @@ const port = 8080;
 
 app.get('/', (req, res) => {
   res.send('🚀 Hello from AWS CI/CD Pipeline running on port 8080!');
+
+  res.send('🚀 Hello from AWS CI/CD Pipeline running on port 8080!');
 });
 
 app.listen(port, () => {

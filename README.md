@@ -1,14 +1,19 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# ☕ Cafe App - Node.js CI/CD Deployment on AWS
+
+This project demonstrates deploying a Node.js-based web application to an AWS EC2 instance using CI/CD principles and AWS DevOps tools like CodeDeploy.
+
+---
+
+## 🚀 Project Overview
+
+- ✅ Node.js app deployed and running on AWS EC2
+- ✅ Manual deployment via Git and shell scripts
+- ✅ CodeDeploy Agent installed
+- ✅ Security group allows traffic on ports 22, 80, 443, 8080
+- ⚠️ CodePipeline + full automation pending due to IAM restrictions
+
+---
+
+## 📁 Project Structure
 
 
-Hi there! Welcome to AWS Cloud9!
-
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
